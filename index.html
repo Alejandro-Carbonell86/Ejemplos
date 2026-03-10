@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es-419" dir="ltr">
+        <!--Título de la página, aparece en la pestaña y sirve para los datos 
+        de búsqueda de Google-->
+        <title> Mi primera página</title>
+
+        <!-- Descripción de la página que utiliza para dar un resumen a los buscadors,
+         no es obligatorio, pero se recomienda sino los buscadores inventan uno.-->
+        <meta name="description" content="Aquí escribes una descripción atractiva y 
+        clara de tu página, máximo 155-160 caracteres">
+
+        <!-- Definir caracteres-->
+        <meta charset="UTF-8">
+
+        <!-- Establecer los parámetros para el diseño responsivo-->
+        <meta name="viewport" conten="with=device-with, initial-scale=1.0">
+        
+        <!-- Open Graph (OG) es un protocolo creado por Facebook para controlar 
+         cómo se ve tu página cuando la compartes en redes sociales-->
+        <meta property="og:title" content="Título atractivo">
+        <meta property="og:description" content="Descripción clara">
+        <meta property="og:image" content="https://ejemplo.com/imagen.jpg">
+        <meta property="og:url" content="https://ejemplo.com">
+        <meta property="og:type" content="website">
+        <!-- Para Twitter, hereda los demás de OG-->
+        <meta name="twitter:card" content="summary_large_image">
+
+        <!-- CSS Incrustado en la página-->
+         <style>
+            body { background-color: black;}
+            h1 { color:brown}
+         </style>
+
+        <!-- CSS externo-->
+         <link rel="stylesheet" href="estilos.css">
+
+         <script src="javascript.js" defer></script>
+    </head>
+    <body>
+
+
+
+        <!-- En la misma linea (poco recomendado)-->
+         <button onclick="alert('click')">Presioname</button>
+
+
+        <!-- JavaScript Interno-->
+        <script>
+            function saludo() {
+                alert('Hola 3ro B');
+            }
+        </script>
+
+
+
+
+        <!-- Al final del body, archivo externo-->
+        <script src="javascript.js"></script>
+    </body>
+</html>
