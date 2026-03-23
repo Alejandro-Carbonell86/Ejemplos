@@ -1,0 +1,23 @@
+.encabezado{
+    background-color: aqua;
+}
+
+.contenido-principal{
+    background-color: azure;
+}
+
+.seccion{
+    background-color: brown;
+}
+
+.articulo{
+    background-color: blue;
+}
+
+.complementario{
+    background-color: cadetblue;
+}
+
+.pie-de-pagina{
+    background-color: coral;
+}
