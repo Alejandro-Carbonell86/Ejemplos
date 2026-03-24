@@ -1,0 +1,24 @@
+header{
+    background-color: azure;
+}
+nav{
+    background-color: aquamarine;
+}
+.cuerpo{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 50% 50%;
+    gap:20px;
+}
+
+.articulo{
+    background-color: brown;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.seccion{
+    background-color: aqua;
+    grid-column: 1;
+    grid-row: 1;
+}
